@@ -1,17 +1,17 @@
 plugins {
-    kotlin("jvm") version "1.9.20"
+    kotlin("jvm") version "1.9.21"
 }
 
 tasks.withType(Wrapper::class) {
-    gradleVersion = "8.4"
+    gradleVersion = "8.5"
 }
 
 group = "com.example.junit5"
 version = "1.0-SNAPSHOT"
 
-val allureVersion = "2.24.0"
-val aspectJVersion = "1.9.20.1"
-val kotlinVersion = "1.9.20"
+val allureVersion = "2.25.0"
+val aspectJVersion = "1.9.21"
+val kotlinVersion = "1.9.21"
 
 kotlin {
     jvmToolchain(17)
