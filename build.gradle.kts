@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.21"
+    kotlin("jvm") version "1.9.22"
 }
 
 tasks.withType(Wrapper::class) {
@@ -11,7 +11,7 @@ version = "1.0-SNAPSHOT"
 
 val allureVersion = "2.25.0"
 val aspectJVersion = "1.9.21"
-val kotlinVersion = "1.9.21"
+val kotlinVersion = "1.9.22"
 
 kotlin {
     jvmToolchain(17)
